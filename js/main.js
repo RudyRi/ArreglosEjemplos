@@ -70,7 +70,7 @@ listaChuches.map((comida)=>{
     console.log(comida)
 })
 
-const dato =  {
+const usuario =  {
     "nombre": "Annie Ochoa",
     "age": 20,
     "profesion": "full-stack developer",
@@ -78,3 +78,25 @@ const dato =  {
 }
 
 console.log(dato.nombre)
+
+const usuarios = [
+    {
+        "nombre": "Annie Ochoa",
+        "age": 20,
+        "profesion": "full-stack developer",
+        "isMarried": false,
+    },
+    {
+        "nombre": "Daniel An",
+        "age": 21,
+        "profesion": "full-stack developer",
+        "isMarried": false,
+    }
+]
+
+usuarios.push({
+        "nombre": "Melissa Trejos",
+        "age": 20,
+        "profesion": "full-stack developer",
+        "isMarried": true,
+})
