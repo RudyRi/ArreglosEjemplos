@@ -77,7 +77,7 @@ const usuario =  {
     "isMarried": false,
 }
 
-console.log(dato.nombre)
+console.log(usuario.nombre)
 
 const usuarios = [
     {
