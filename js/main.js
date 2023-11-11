@@ -69,3 +69,12 @@ for (let i=0; i<listaChuches.length; i++){
 listaChuches.map((comida)=>{
     console.log(comida)
 })
+
+const dato =  {
+    "nombre": "Annie Ochoa",
+    "age": 20,
+    "profesion": "full-stack developer",
+    "isMarried": false,
+}
+
+console.log(dato.nombre)
